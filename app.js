@@ -73,6 +73,7 @@ function appMenu() {
     ]).then(answers => {
       const manager = new Manager(answers.managerName, answers.managerId, answers.managerEmail, answers.managerOfficeNumber);
       teamMembers.push(manager);
+      // console.log(teamMembers);
       idArray.push(answers.managerId);
       createTeam();
     });
@@ -236,6 +237,7 @@ function appMenu() {
   }
 
   function buildTeam() {
+    // console.log(teamMembers);
     fs.writeFileSync(outputPath, render(teamMembers), "utf-8");
   }
 
