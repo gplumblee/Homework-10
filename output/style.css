@@ -1,0 +1,23 @@
+.jumbotron {
+    background-color: #0f67ff;
+    color: #ffffff;
+}
+
+.jumbotron h1 {
+    font-size: 72px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #f6fbff;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+}
+
+.card-header {
+    background-color: #a9c9ff;
+}
